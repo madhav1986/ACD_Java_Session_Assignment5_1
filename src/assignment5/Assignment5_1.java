@@ -3,14 +3,14 @@ package assignment5; // package declaration is compulsory.
   This program will help you to understand the concepts of abstract class , inheritance and abstract methods.
  */
 
-abstract class Bank // Abstract class 
+abstract class Bank // Parent Abstract class 
 {
 	// Abstract Method
 	public abstract int RateOfInterest();
 }
 
 
-class Sbi extends Bank //class extending abstract class
+class Sbi extends Bank //Child class extending abstract class
 {
 	// Implementation of Abstract Method 
 	public int RateOfInterest()
@@ -19,7 +19,7 @@ class Sbi extends Bank //class extending abstract class
 	}
 }
 
-class Hdfc extends Bank //class extending abstract class
+class Hdfc extends Bank //Child class extending abstract class
 {
 	//Implementation of Abstract Method
 	public int RateOfInterest()
